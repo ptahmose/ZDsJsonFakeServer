@@ -62,7 +62,46 @@
             }
           }
         }
-      } 
+      } ,
+
+      { "Info":"DefDS" ,
+        "Rectangle": [0,0,1024,768],
+        "DimBounds": {"Z":[0,5],"T":[0,10]},
+         "PropertyBag": 
+        {
+          "DefDS":
+          {
+            "CompositionMode":"Add",
+            "Channels":
+            {
+              "0":
+              {
+                "IsEnabled":true,
+                "ChannelRenderMode":"Standard",
+                "TintingMode":"Color",
+                "TintingColor":[0.8,0.3,0.9],
+                "BlackPoint":0.03,
+                "WhitePoint":0.83,
+                "Weight":1,
+                "GradationCurveMode":"Gamma",
+                "GradationCurveGamma":1.3
+              },
+              "1":
+              {
+                "IsEnabled":true,
+                "ChannelRenderMode":"Standard",
+                "TintingMode":"Color",
+                "TintingColor":[0.1,0,0.9],
+                "BlackPoint":0.1,
+                "WhitePoint":0.71,
+                "Weight":1,
+                "GradationCurveMode":"Gamma",
+                "GradationCurveGamma":0.3
+              }
+            }
+          }
+        } 
+      },
        
     ],
   
