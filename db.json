@@ -12,6 +12,14 @@
 
   
     ],
+
+    "frameserver": [
+
+      { "Info":"ScalingInfo" ,"Rectangle": [0,0,1024,768], "PropertyBag": "some comment" }
+  
+    
+  
+    ],
   
     "comments": [
   
