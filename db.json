@@ -15,7 +15,18 @@
 
     "frameserver": [
 
-      { "Info":"ScalingInfo" ,"Rectangle": [0,0,1024,768], "PropertyBag": "some comment" }
+      { "Info":"ScalingInfo" ,
+        "Rectangle": [0,0,1024,768],
+        "DimBounds": {"Z":[0,5],"T":[0,10]},
+         "PropertyBag": 
+        {
+          "ScalingInfo":
+          {
+            "ScaleX":1.23e-7,
+            "ScaleY":1.23e-7
+          }
+        } 
+      }
   
     
   
