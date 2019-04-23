@@ -33,33 +33,37 @@
         "DimBounds": {"Z":[0,5],"T":[0,10]},
          "PropertyBag": 
         {
-          "ScalingInfo":
+        
+          "Channels":
           {
-            "Channels":
+            "0":
             {
-              "0":
-              {
-                "Name":"Channel #1",
-                "ShortName":"#1",
-                "ChannelColor":[0,0.5,1],
-                "PixelType":"Gray16",
-                "ComponentBitCount":14
-              },
-              "1":
-              {
-                "Name":"Channel #2",
-                "ShortName":"#2",
-                "ChannelColor":[1,0.1,0],
-                "PixelType":"Gray8",
-                "ComponentBitCount":8
-              }
+              "Name":"Channel #1",
+              "ShortName":"#1",
+              "ChannelColor":[0,0.5,1],
+              "PixelType":"Gray16",
+              "ComponentBitCount":14,
+              "AcquisitionMode":"LaserScanningConfocalMicroscopy",
+              "ContrastMethod":"Fluorescence",
+              "IlluminationMode":"Epifluorescence",
+              "Fluor":"DAPI"
+            },
+            "1":
+            {
+              "Name":"Channel #2",
+              "ShortName":"#2",
+              "ChannelColor":[1,0.1,0],
+              "PixelType":"Gray8",
+              "ComponentBitCount":8,
+              "AcquisitionMode":"LaserScanningConfocalMicroscopy",
+              "ContrastMethod":"Fluorescence",
+              "IlluminationMode":"Epifluorescence",
+              "Fluor":"TexasRed"
             }
           }
-        } 
-      }
-  
-    
-  
+        }
+      } 
+       
     ],
   
     "comments": [
