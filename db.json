@@ -33,7 +33,8 @@
         "DimBounds": {"Z":[0,5],"T":[0,10]},
          "PropertyBag": 
         {
-        
+          "C_MD":
+          {
           "Channels":
           {
             "0":
@@ -62,6 +63,7 @@
             }
           }
         }
+      }
       } ,
 
       { "Info":"DefDS" ,
@@ -158,7 +160,106 @@
             }
           }
         } 
+      },
+
+      { "Info":"All" ,
+        "Rectangle": [0,0,1024,768],
+        "DimBounds": {"Z":[0,5],"T":[0,10]},
+         "PropertyBag": 
+        {
+          
+          "ScalingInfo":
+            {
+              "ScaleX":1.23e-7,
+              "ScaleY":1.23e-7
+            }
+           ,
+          "C_MD":
+          {
+          "Channels":
+          {
+            "0":
+            {
+              "Name":"Channel #1",
+              "ShortName":"#1",
+              "ChannelColor":[0,0.5,1],
+              "PixelType":"Gray16",
+              "ComponentBitCount":14,
+              "AcquisitionMode":"LaserScanningConfocalMicroscopy",
+              "ContrastMethod":"Fluorescence",
+              "IlluminationMode":"Epifluorescence",
+              "Fluor":"DAPI"
+            },
+            "1":
+            {
+              "Name":"Channel #2",
+              "ShortName":"#2",
+              "ChannelColor":[1,0.1,0],
+              "PixelType":"Gray8",
+              "ComponentBitCount":8,
+              "AcquisitionMode":"LaserScanningConfocalMicroscopy",
+              "ContrastMethod":"Fluorescence",
+              "IlluminationMode":"Epifluorescence",
+              "Fluor":"TexasRed"
+            }
+          }
+        },
+
+        "DefDS":
+        {
+          "CompositionMode":"Add",
+          "Channels":
+          {
+            "0":
+            {
+              "IsEnabled":true,
+              "ChannelRenderMode":"Standard",
+              "TintingMode":"Color",
+              "TintingColor":[0.8,0.3,0.9],
+              "BlackPoint":0.03,
+              "WhitePoint":0.83,
+              "Weight":1,
+              "GradationCurveMode":"Gamma",
+              "GradationCurveGamma":1.3
+            },
+            "1":
+            {
+              "IsEnabled":true,
+              "ChannelRenderMode":"Standard",
+              "TintingMode":"Color",
+              "TintingColor":[0.1,0,0.9],
+              "BlackPoint":0.1,
+              "WhitePoint":0.71,
+              "Weight":1,
+              "GradationCurveMode":"Spline",
+              "GradationCurveSplineControlPoints":[0,0,0.1,0.3,0.5,0.8,0.7,0.9,1.1]
+            }
+          }
+        },
+
+          "GenDoc":
+          {
+            "Name":"Testtext",
+            "Author":"John Doe",
+            "UserName":"JD",
+            "SubType":"Image",
+            "Title":"My Image",
+            "CreationDate":"2008-09-31T15:07:40.7-05:00",
+            "Description":"some description",
+            "Comment":"The quick brown fox jumps over the lazy dog",
+            "Keywords":["keyword1","keyword2","abc"],
+            "Rating":4,
+
+            "AdditionalCustomData":
+            {
+              "addendum1":"Here is some additional important information",
+              "addendum2":432.3,
+              "addendum3":["and","some","more"]
+            }
+          }
+        } 
       }
+      
     
     ],
   
