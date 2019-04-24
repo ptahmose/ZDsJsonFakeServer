@@ -130,6 +130,34 @@
             "List":[0,1,2,3,4,5,6,7,8,9]
           }
         } 
+      },
+      
+      { "Info":"GenDoc" ,
+        "Rectangle": [0,0,1024,768],
+        "DimBounds": {"Z":[0,5],"T":[0,10]},
+         "PropertyBag": 
+        {
+          "GenDoc":
+          {
+            "Name":"Testtext",
+            "Author":"John Doe",
+            "UserName":"JD",
+            "SubType":"Image",
+            "Title":"My Image",
+            "CreationDate":"2008-09-31T15:07:40.7-05:00",
+            "Description":"some description",
+            "Comment":"The quick brown fox jumps over the lazy dog",
+            "Keywords":["keyword1","keyword2","abc"],
+            "Rating":4,
+
+            "AdditionalCustomData":
+            {
+              "addendum1":"Here is some additional important information",
+              "addendum2":432.3,
+              "addendum3":["and","some","more"]
+            }
+          }
+        } 
       }
     
     ],
