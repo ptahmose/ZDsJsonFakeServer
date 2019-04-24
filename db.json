@@ -95,10 +95,39 @@
                 "BlackPoint":0.1,
                 "WhitePoint":0.71,
                 "Weight":1,
-                "GradationCurveMode":"Gamma",
-                "GradationCurveGamma":0.3
+                "GradationCurveMode":"Spline",
+                "GradationCurveSplineControlPoints":[0,0,0.1,0.3,0.5,0.8,0.7,0.9,1.1]
               }
             }
+          }
+        } 
+      },
+
+      { "Info":"Z_MD" ,
+        "Rectangle": [0,0,1024,768],
+        "DimBounds": {"Z":[0,5],"T":[0,10]},
+         "PropertyBag": 
+        {
+          "Z_MD":
+          {
+            "ReferencePosition":1.44,
+            "DefinitionMode":"EquidisitantIncrement",
+            "IncStart":0,
+            "IncDistance":1.2
+          }
+        } 
+      },
+
+      { "Info":"T_MD" ,
+        "Rectangle": [0,0,1024,768],
+        "DimBounds": {"Z":[0,5],"T":[0,10]},
+         "PropertyBag": 
+        {
+          "T_MD":
+          {
+            "StartTime":"2008-10-31T15:07:38.6875000-05:00",
+            "DefinitionMode":"List",
+            "List":[0,1,2,3,4,5,6,7,8,9]
           }
         } 
       }
